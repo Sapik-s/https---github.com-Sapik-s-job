@@ -1,0 +1,124 @@
+.head
+    &__wrapper
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__logo
+        cursor: pointer
+        margin-left: -10px
+    &__phone-wrapper
+        display: flex
+        direction: column
+    &__phone-icons
+        padding-right: 15px
+    &__phone
+        display: flex
+        align-items: center
+        font-style: normal
+        font-weight: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 24px
+        color: #000000
+        text-decoration: none
+.main
+    // position: relative
+    padding: 46px 60px 59px 64px
+    height: 1024px
+    &__wrapper-bg
+        position: relative
+    &__bg
+        position: absolute
+        // height: 100%
+        // width: 100%
+        top: 46px
+        left: 50%
+        transform: translateX(-50%)
+        z-index: -99
+    &__feedback
+        margin-top: 23px
+        padding: 41px 45px 46px 45px
+        width: 370px
+        min-height: 450px
+        background: #FFFFFF
+        box-shadow: 0px 4px 20px rgba(207, 204, 190, 0.25)
+        border-radius: 20px
+    &__fd-title
+        text-align: center
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 22px
+        color: #000000
+        font-weight: 500
+    &__name-form
+        font-style: normal
+        font-weight: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+        color: #000000
+        margin-top: 14px
+    &__fd-phone
+        font-style: normal
+        font-weight: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+        color: #000000
+        margin-top: 19px
+    &__offer
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 12px
+        color: #C1C1C1
+        margin-top: 22px
+        a
+            cursor: pointer
+            color: #82C6F8
+    &__form-bt
+        display: block
+        margin: 0 auto
+        margin-top: 32px
+        width: 214px
+        height: 46px
+        background: #FFD600
+        box-shadow: 0px 4px 20px rgba(207, 204, 190, 0.3)
+        border-radius: 8px
+        font-family: Roboto
+        font-style: normal
+        font-weight: normal
+        font-size: 18px
+        line-height: 24px
+        color: #32312A
+        border: none
+        cursor: pointer
+        outline: none
+    &__info
+        margin-top: 96px
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 120%
+        color: #C1C1C1
+        line-height: 2
+form
+    input
+        padding: 12px 24px 10px 24px
+        width: 280px
+        height: 46px
+        border: 1px solid #32312A
+        border-radius: 8px
+        margin-top: 9px
+        font-style: normal
+        font-weight: normal
+        font-size: 16px
+        line-height: 24px
+        color: #CECECE
+        opacity: 0.7
+#name-error, #phone-error
+    display: block
+    text-align: center
+    color: #ff0000af
+    padding-top: 5px
